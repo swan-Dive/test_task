@@ -2,7 +2,7 @@ import "./mainBody.css"
 
 
 
-const MainBody = ({folded, children, value}) => {
+const MainBody = ({folded, children}) => {
 
   return (
 

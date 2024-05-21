@@ -1,8 +1,7 @@
 import "./footer.css"
-import { UseSomeContextApi } from "../context/SomeContext"
 
 const Footer = ({children, valuesFromBody}) => {
-  const context = UseSomeContextApi()
+
   
   return (
     <div className="footer">
