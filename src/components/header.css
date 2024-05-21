@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 1px solid var(--separator-color);
+  padding-bottom: 10px;
+}
+
+.slide_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.slide_button {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-button-color);
+  
+}
+

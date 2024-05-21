@@ -1,0 +1,14 @@
+.slide-down {
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+
+  transition: grid-template-rows .5s ease;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows .5s ease;
+}

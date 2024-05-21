@@ -1,0 +1,12 @@
+.footer {
+  width:100%;
+  border-top: 1px solid var(--separator-color);
+  display: flex;
+  align-items: center;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
