@@ -1,9 +1,14 @@
-import "./header.css"
-import { MainBodyContext } from "../pages/MainComponent"
 import { useContext } from "react"
+import "./header.css"
+import { MainBodyContext } from "./MainBody"
+import { UseSomeContextApi } from "../context/SomeContext"
 
-const TestOne = () => {
+
+const TestOne = ({context_id}) => {
   const context = useContext(MainBodyContext)
+  const context2 = UseSomeContextApi()
+  console.log(context2)
+  console.log(context)
   return (
     <div className="test">
       <h3>I am child one</h3>
