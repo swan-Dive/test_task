@@ -1,12 +1,13 @@
-import { UseSomeContextApi } from "../context/SomeContext"
+import { MainBodyContext } from "../pages/MainComponent"
+import { useContext } from "react"
 
 const TestTwo = () => {
-  const context = UseSomeContextApi()
+  const context = useContext(MainBodyContext)
 
   return (
     <div style={{'paddingBottom' : '10px'}}>
       <h3>I am child two</h3>
-      <input value={context.data.input2} className="input_style" name="input2" onChange={context.handle_input} placeholder="place text here"/>
+      <input className="input_style" name="input2" onChange={context.handle_input} placeholder="place text here"/>
     </div>
   )
 }
